@@ -20,7 +20,7 @@ keyBuild.innerHTML = `
 
 function keyClaim(keyArray){
   if(!keyZero){
-    const keyView = keyArray.splice(2, 1)[0];
+    const keyView = keyArray;
     console.log(keyView);
   } else {
     return keyZero;
