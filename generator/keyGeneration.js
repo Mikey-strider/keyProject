@@ -2,6 +2,11 @@ import getKey from "../keyAPI/squareApi";
 
 function modifyContent(){
 
+  let keySet = {
+    keys: [],
+    locked: false,
+    lockTime: null
+  };
 
 
   function keyValidator(){
