@@ -1,23 +1,43 @@
-import getKey from "../keyAPI/squareApi";
+import keyData from "./keyApi";
 
-function modifyContent(){
+function keyUnlock(){
+  const currentDate = new Date();
+  let tomorrow = currentDate.setDate(currentDate.getDate(currentDate.setHours(9)) + 1);
+  function keyStart(){
+    const getKey = json.strinify(keyData);
+    const keyCountLeft = array.length(getKey);
+    if (tomorrow || keyCountLeft !== 0) {
+      for(let i = 0; i < keyCountLeft; i--) {
+        if (keyCountLeft > 0){
+          const keyValidated = getKey(key);
+          return keyValidated;
+        } if (keyCountLeft === 0){
+          return "There are no more keys left!";
+        }
+        }
+      }
+    } keyStart();
+  } keyUnlock();
+  
 
-  let keySet = {
-    keys: [],
-    locked: false,
-    lockTime: null
-  };
-
-
-  function keyValidator(){
-    if (keyValidated) {
-      return key;
-    } if (!keyValidated){
-      return "Sorry, No more keys left.";
-    }
-  }
 
 
 
-}
-window.addEventListener('DOMContentLoaded', modifyContent);
+
+// function modifyContent(){
+// }
+// window.addEventListener('DOMContentLoaded', modifyContent);
+
+
+
+
+
+
+
+// function keyValidator(){
+//   if (keyValidated) {
+//     return key;
+//   } if (!keyValidated){
+//     return "Sorry, No more keys left.";
+//   }
+// }
