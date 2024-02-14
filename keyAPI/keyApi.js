@@ -3,12 +3,12 @@ export default function keyData(){
   async function oneKey(){
 
     try {
-      const res = await fetch(`https://connect.squareup.com/v2/${token}`,{
+      const res = await fetch(`https://connect.squareupsandbox.com/v2/catalog/search-catalog-items`,{
           method: 'GET',
           headers: {
           'Authorization': 'Bearer {ACCESS_TOKEN}',
           'Content-type' : 'application/json',
-          'square-Version' : '2019-08-14',
+          'Square-Version' : '2024-01-18',
           'idempotency_key' : crypto.randomUUID(),  //Use a uuid for this key
         }
       });

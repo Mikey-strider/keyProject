@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "type": "ITEM",
+      "id": "GPOKJPTV2KDLVKCADJ7I77EZ",
+      "updated_at": "2020-06-18T17:55:56.646Z",
+      "version": 1592502956646,
+      "is_deleted": false,
+      "present_at_all_locations": true,
+      "custom_attribute_values": {
+        "VINTAGE": {
+          "name": "Vintage",
+          "custom_attribute_definition_id": "EI7IJQDUKYSHULREPIPH6HNU",
+          "type": "NUMBER",
+          "number_value": 2018,
+          "key": "VINTAGE"
+        },
+        "VARIETAL": {
+          "name": "Varietal",
+          "custom_attribute_definition_id": "VARIETAL_DEFINITION_ID",
+          "type": "SELECTION",
+          "selection_uid_values": [
+            "MERLOT_SELECTION_ID"
+          ],
+          "key": "VARIETAL"
+        },
+        "BRAND": {
+          "name": "Brand",
+          "custom_attribute_definition_id": "BRAND_DEFINITION_ID",
+          "type": "STRING",
+          "string_value": "Dark Horse",
+          "key": "BRAND"
+        }
+      },
+      "item_data": {
+        "name": "Dark Horse Merlot 2018",
+        "product_type": "REGULAR",
+        "is_archived": false,
+        "description": "A nice red wine",
+        "variations": [
+          {
+            "type": "ITEM_VARIATION",
+            "id": "VBJNPHCOKDFECR6VU25WRJUD",
+            "updated_at": "2020-06-18T17:55:56.646Z",
+            "version": 1592502956646,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+              "item_id": "GPOKJPTV2KDLVKCADJ7I77EZ",
+              "name": "750 mL",
+              "ordinal": 0,
+              "pricing_type": "FIXED_PRICING",
+              "price_money": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "matched_variation_ids": [
+    "VBJNPHCOKDFECR6VU25WRJUD"
+  ]
+}
